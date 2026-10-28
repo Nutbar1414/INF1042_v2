@@ -6,7 +6,7 @@ choix = random.choice(options)
 
 choix_2 = input("choisis roches, papier ou cisseaux : ")
 
-if (choix_2 == choix):
+if choix_2 == choix:
     print("Égalité!")
 else:
     print("Choix différente!")
